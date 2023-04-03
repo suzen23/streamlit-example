@@ -4,14 +4,16 @@ import matplotlib.pyplot as plt
 
 st.header=('DESESTIMIENTOS ATET')
 
-basepath ="https://github.com/suzen23/streamlit-example"
-archivo1= basepath + "/ListDesestimiento.xlsx"
+#cargar el dataframe
+
+excel_file = 'ListDesestimiento.xlsx
+sheet_name ='DATA'
+df =pd.read_excel(excel_file,
+                  sheet_name = sheet_name,
+                  usecols='B:D',
+                  header=3)
 
 
-dfind = pd.read_excel(archivo1, sheet_name="LISTADO")
-dexo = pd.read_excel(archivo1, sheet_name="Motivo")
 
-dfind.head()
-dfind.info()
 
-print(dfind)
+
