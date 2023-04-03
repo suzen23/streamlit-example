@@ -10,7 +10,7 @@ st.subheader=('des')
 #basepath ="https://github.com/suzen23/streamlit-example"
 #archivo1= basepath + "/ListDesestimientoCopia.xlsx"
 
-excel_file = 'https://github.com/suzen23/streamlit-example/ListDesestimiento.xlsx'
+excel_file = 'ListDesestimiento.xlsx'
 sheet_name ='DATA'
 df =pd.read_excel(excel_file,
                   sheet_name = sheet_name,
