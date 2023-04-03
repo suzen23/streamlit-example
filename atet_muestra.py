@@ -1,9 +1,10 @@
 import pandas as pd
 import numpy as np
 import plotly.express as px
-import matplotlib.pyplot as plt
+from PIL import Image
 
 st.header=('DESESTIMIENTOS ATET')
+st.subheader=('des')
 
 #cargar el dataframe
 #basepath ="https://github.com/suzen23/streamlit-example"
