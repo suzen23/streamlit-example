@@ -13,3 +13,5 @@ dexo = pd.read_excel(archivo1, sheet_name="Motivo")
 
 dfind.head()
 dfind.info()
+
+print(dfind)
