@@ -12,3 +12,4 @@ dfind = pd.read_excel(archivo1, sheet_name="LISTADO")
 dexo = pd.read_excel(archivo1, sheet_name="Motivo")
 
 dfind.head()
+dfind.info()
